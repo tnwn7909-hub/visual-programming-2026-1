@@ -1,0 +1,102 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _012_HACJUMcalc
+{
+    public partial class Form1 : Form
+    {
+        TextBox[] titles; // 교과목 TextBox 배열
+        ComboBox[] crds; // 학점 ComboBox 배열
+        ComboBox[] grds; // 성적 ComboBox 배열 
+
+
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+
+
+
+        private double GetGrade(string text)
+        {
+            double grade = 0;
+
+            if (text == "A+") grade = 4.5;
+            else if (text == "A0") grade = 4.0;
+            else if (text == "B+") grade = 3.5;
+            else if (text == "B0") grade = 3.0;
+            else if (text == "C+") grade = 2.5;
+            else if (text == "C0") grade = 2.0;
+            else if (text == "D+") grade = 1.5;
+            else if (text == "D0") grade = 1.0;
+            else grade = 0;
+            return grade;
+        }
+
+        // Form1이 로드될때(프로그램이 시작될때
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            txt1.Text = "기업가정신";
+            txt2.Text = "설계및프로젝트심화";
+            txt3.Text = "비주얼프로그래밍";
+            txt4.Text = "전기전자공학및실험";
+            txt5.Text = "인체구조와기능"; 
+            txt6.Text = "영어회화";
+            txt7.Text = "한국근현대사";
+
+            crds = new ComboBox[] { crd1, crd2, crd3, crd4, crd5, crd6, crd7 };
+            grds = new ComboBox[] { grd1, grd2, grd3, grd4, grd5, grd6, grd7 };
+            titles = new TextBox[] { txt1, txt2, txt3, txt4, txt5, txt6, txt7 };
+            int[] arrCredit = { 1, 2, 3, 4, 5 };
+            List<String> lstGrade = new List<string> { "A+", "A0", "B+", "B0", "C+", "C0", "D+",
+             "D0", "F" };
+            
+
+            // 이중 반봅문으로 crd1,.......crd7에 1,2,3,4,5를 Items로 등록 
+            foreach (var combo in crds)
+            {
+                foreach (var i in arrCredit)
+                    combo.Items.Add(i);
+                combo.SelectedItem = 3;
+            }
+
+            foreach (var cb in grds)
+            {
+                foreach (var gr in lstGrade)
+                    cb.Items.Add(gr);
+            }
+
+
+        }
+
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double totalScore = 0;
+            int totalCredits = 0;
+
+            for (int i = 0; i < crds.Length; i++)
+            {
+                if (titles[i].Text != "")
+                {
+                    int crd = int.Parse(crds[i].SelectedItem.ToString());
+                    totalCredits += crd;
+                    totalScore += crd * GetGrade(grds[i].SelectedItem.ToString());
+                }
+            }
+            txtgrade.Text = (totalScore / totalCredits).ToString("0.00");
+
+        }
+
+        
+    }
+}
