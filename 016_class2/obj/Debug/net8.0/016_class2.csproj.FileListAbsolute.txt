@@ -1,0 +1,14 @@
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\bin\Debug\net8.0\016_class2.exe
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\bin\Debug\net8.0\016_class2.deps.json
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\bin\Debug\net8.0\016_class2.runtimeconfig.json
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\bin\Debug\net8.0\016_class2.dll
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\bin\Debug\net8.0\016_class2.pdb
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.AssemblyInfoInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.AssemblyInfo.cs
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.dll
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\refint\016_class2.dll
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.pdb
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\016_class2.genruntimeconfig.cache
+C:\Users\konyang\source\repos\vp-2026-1\016_class2\obj\Debug\net8.0\ref\016_class2.dll
