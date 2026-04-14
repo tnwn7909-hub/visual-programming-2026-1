@@ -1,0 +1,14 @@
+C:\Users\konyang\source\repos\vp-2026-1\018_student\bin\Debug\net8.0\018_student.exe
+C:\Users\konyang\source\repos\vp-2026-1\018_student\bin\Debug\net8.0\018_student.deps.json
+C:\Users\konyang\source\repos\vp-2026-1\018_student\bin\Debug\net8.0\018_student.runtimeconfig.json
+C:\Users\konyang\source\repos\vp-2026-1\018_student\bin\Debug\net8.0\018_student.dll
+C:\Users\konyang\source\repos\vp-2026-1\018_student\bin\Debug\net8.0\018_student.pdb
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.AssemblyInfoInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.AssemblyInfo.cs
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.dll
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\refint\018_student.dll
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.pdb
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\018_student.genruntimeconfig.cache
+C:\Users\konyang\source\repos\vp-2026-1\018_student\obj\Debug\net8.0\ref\018_student.dll
