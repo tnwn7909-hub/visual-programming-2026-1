@@ -1,0 +1,10 @@
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\bin\Debug\022_Clock.exe.config
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\bin\Debug\022_Clock.exe
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\bin\Debug\022_Clock.pdb
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\022_Clock.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\_022_Clock.Form1.resources
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\_022_Clock.Properties.Resources.resources
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\022_Clock.csproj.GenerateResource.cache
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\022_Clock.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\022_Clock.exe
+C:\Users\konyang\source\repos\vp-2026-1\022_Clock\obj\Debug\022_Clock.pdb
