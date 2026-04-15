@@ -31,7 +31,7 @@
     { 
         static void Main(string[] args)
         {          
-                Student student = new Student("홍길동", 20, "의료IT공학");
+                Student student = new Student("이동혁", 20, "의료IT공학");
                 student.DisplayInfo();
         }
     }
