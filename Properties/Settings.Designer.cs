@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SUSI_1.Properties
+namespace Myproject1.Properties
 {
 
 

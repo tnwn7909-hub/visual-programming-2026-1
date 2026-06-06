@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SUSI_1
+namespace Myproject1
 {
     internal static class Program
     {

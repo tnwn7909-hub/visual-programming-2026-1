@@ -1,4 +1,4 @@
-﻿namespace SUSI_1
+﻿namespace Myproject1
 {
     partial class Form1
     {
@@ -28,118 +28,109 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtname = new System.Windows.Forms.TextBox();
-            this.txtamount = new System.Windows.Forms.TextBox();
-            this.btnCalc = new System.Windows.Forms.Button();
-            this.btnFormat = new System.Windows.Forms.Button();
-            this.cbxdrink = new System.Windows.Forms.ComboBox();
-            this.txtResult = new System.Windows.Forms.TextBox();
+            this.components = new System.ComponentModel.Container();
+            this.pnlGameArea = new System.Windows.Forms.Panel();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.labelScore = new System.Windows.Forms.Label();
+            this.labelTime = new System.Windows.Forms.Label();
+            this.labelHighScore = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.cmbDifficulty = new System.Windows.Forms.ComboBox();
+            this.picMole = new System.Windows.Forms.PictureBox();
+            this.pnlGameArea.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picMole)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // pnlGameArea
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "주문자 이름";
+            this.pnlGameArea.BackColor = System.Drawing.Color.Green;
+            this.pnlGameArea.Controls.Add(this.picMole);
+            this.pnlGameArea.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pnlGameArea.Location = new System.Drawing.Point(12, 12);
+            this.pnlGameArea.Name = "pnlGameArea";
+            this.pnlGameArea.Size = new System.Drawing.Size(576, 213);
+            this.pnlGameArea.TabIndex = 0;
             // 
-            // label2
+            // btnStart
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(12, 60);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "음료 종류";
+            this.btnStart.Location = new System.Drawing.Point(12, 251);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.TabIndex = 1;
+            this.btnStart.Text = "게임 시작!";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
-            // label3
+            // labelScore
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label3.Location = new System.Drawing.Point(12, 107);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "수량";
+            this.labelScore.AutoSize = true;
+            this.labelScore.Location = new System.Drawing.Point(12, 295);
+            this.labelScore.Name = "labelScore";
+            this.labelScore.Size = new System.Drawing.Size(47, 12);
+            this.labelScore.TabIndex = 2;
+            this.labelScore.Text = "점수 : 0";
             // 
-            // txtname
+            // labelTime
             // 
-            this.txtname.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtname.Location = new System.Drawing.Point(115, 9);
-            this.txtname.Name = "txtname";
-            this.txtname.Size = new System.Drawing.Size(121, 21);
-            this.txtname.TabIndex = 3;
+            this.labelTime.AutoSize = true;
+            this.labelTime.Location = new System.Drawing.Point(12, 325);
+            this.labelTime.Name = "labelTime";
+            this.labelTime.Size = new System.Drawing.Size(93, 12);
+            this.labelTime.TabIndex = 3;
+            this.labelTime.Text = "남은 시간 : 30초";
             // 
-            // txtamount
+            // labelHighScore
             // 
-            this.txtamount.Location = new System.Drawing.Point(115, 104);
-            this.txtamount.Name = "txtamount";
-            this.txtamount.Size = new System.Drawing.Size(121, 21);
-            this.txtamount.TabIndex = 5;
+            this.labelHighScore.AutoSize = true;
+            this.labelHighScore.Location = new System.Drawing.Point(12, 354);
+            this.labelHighScore.Name = "labelHighScore";
+            this.labelHighScore.Size = new System.Drawing.Size(71, 12);
+            this.labelHighScore.TabIndex = 4;
+            this.labelHighScore.Text = "최고점수 : 0";
             // 
-            // btnCalc
+            // timer1
             // 
-            this.btnCalc.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnCalc.Location = new System.Drawing.Point(33, 193);
-            this.btnCalc.Name = "btnCalc";
-            this.btnCalc.Size = new System.Drawing.Size(75, 23);
-            this.btnCalc.TabIndex = 6;
-            this.btnCalc.Text = "계산";
-            this.btnCalc.UseVisualStyleBackColor = true;
-            this.btnCalc.Click += new System.EventHandler(this.btnCalc_Click);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // btnFormat
+            // cmbDifficulty
             // 
-            this.btnFormat.Location = new System.Drawing.Point(213, 192);
-            this.btnFormat.Name = "btnFormat";
-            this.btnFormat.Size = new System.Drawing.Size(75, 23);
-            this.btnFormat.TabIndex = 7;
-            this.btnFormat.Text = "초기화";
-            this.btnFormat.UseVisualStyleBackColor = true;
-            this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
+            this.cmbDifficulty.FormattingEnabled = true;
+            this.cmbDifficulty.Items.AddRange(new object[] {
+            "쉬움",
+            "보통",
+            "어려움"});
+            this.cmbDifficulty.Location = new System.Drawing.Point(364, 253);
+            this.cmbDifficulty.Name = "cmbDifficulty";
+            this.cmbDifficulty.Size = new System.Drawing.Size(121, 20);
+            this.cmbDifficulty.TabIndex = 5;
             // 
-            // cbxdrink
+            // picMole
             // 
-            this.cbxdrink.FormattingEnabled = true;
-            this.cbxdrink.Location = new System.Drawing.Point(115, 60);
-            this.cbxdrink.Name = "cbxdrink";
-            this.cbxdrink.Size = new System.Drawing.Size(121, 20);
-            this.cbxdrink.TabIndex = 9;
-            this.cbxdrink.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // txtResult
-            // 
-            this.txtResult.Location = new System.Drawing.Point(27, 247);
-            this.txtResult.Multiline = true;
-            this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(261, 183);
-            this.txtResult.TabIndex = 11;
+            this.picMole.Image = global::Myproject1.Properties.Resources.Adobe_Express___file;
+            this.picMole.Location = new System.Drawing.Point(44, 36);
+            this.picMole.Name = "picMole";
+            this.picMole.Size = new System.Drawing.Size(49, 44);
+            this.picMole.TabIndex = 1;
+            this.picMole.TabStop = false;
+            this.picMole.Click += new System.EventHandler(this.picMole_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(326, 472);
-            this.Controls.Add(this.txtResult);
-            this.Controls.Add(this.cbxdrink);
-            this.Controls.Add(this.btnFormat);
-            this.Controls.Add(this.btnCalc);
-            this.Controls.Add(this.txtamount);
-            this.Controls.Add(this.txtname);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(600, 450);
+            this.Controls.Add(this.cmbDifficulty);
+            this.Controls.Add(this.labelHighScore);
+            this.Controls.Add(this.labelTime);
+            this.Controls.Add(this.labelScore);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.pnlGameArea);
             this.Name = "Form1";
-            this.Text = "카페 주문 프로그램";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.pnlGameArea.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picMole)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,15 +138,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtname;
-        private System.Windows.Forms.TextBox txtamount;
-        private System.Windows.Forms.Button btnCalc;
-        private System.Windows.Forms.Button btnFormat;
-        private System.Windows.Forms.ComboBox cbxdrink;
-        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.Panel pnlGameArea;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Label labelScore;
+        private System.Windows.Forms.Label labelTime;
+        private System.Windows.Forms.Label labelHighScore;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ComboBox cmbDifficulty;
+        private System.Windows.Forms.PictureBox picMole;
     }
 }
 

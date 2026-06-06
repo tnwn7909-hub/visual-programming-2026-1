@@ -1,0 +1,10 @@
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.csproj.AssemblyReference.cache
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.Form1.resources
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.Properties.Resources.resources
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.csproj.GenerateResource.cache
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.csproj.CoreCompileInputs.cache
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\bin\Debug\Myproject1.exe.config
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\bin\Debug\Myproject1.exe
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\bin\Debug\Myproject1.pdb
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.exe
+C:\Users\konyang\source\repos\vp-2026-1\Myproject1\obj\Debug\Myproject1.pdb
